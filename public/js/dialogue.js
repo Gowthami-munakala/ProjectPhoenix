@@ -3,7 +3,6 @@
 // fails, subtitles are timed on their own so gameplay never stalls.
 import { Audio } from './audio.js';
 import { Store } from './storage.js';
-
 // Voice profiles: TTS pitch/rate plus an optional sound texture underneath.
 const PROFILES = {
   narrator:     { pitch: 0.75, rate: 0.86, texture: null, cls: '', voiceIndex: 0 },
