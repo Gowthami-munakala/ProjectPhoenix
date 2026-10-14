@@ -1,4 +1,4 @@
-// LEVEL 3 — THE BLACKWOOD PINES: WHISPERING TRAIL
+// LEVEL 3 — THE BLACKWOOD PINES: WHISPERING TRAIL..
 // Atmospheric forest horror. Dense fog, creaking branches, ancient altar puzzles, and an agile predator.
 import { BaseLevel, Stalker, Grid, TileMap, TILE, tc, dist, rnd, choose, shuffle, hash, clamp } from '../engine.js';
 import { Audio } from '../audio.js';
