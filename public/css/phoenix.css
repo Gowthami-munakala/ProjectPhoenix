@@ -1,4 +1,4 @@
-[hidden] { display: none !important; }
+[hidden] { display: none !important; } 
 button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid var(--gold); outline-offset: 4px; }
 .hint-box { position: absolute; right: 24px; top: 145px; width: min(330px, calc(100vw - 40px)); padding: 18px; border: 1px solid var(--line); border-left: 3px solid var(--gold); border-radius: 8px; background: rgba(25, 17, 14, .97); box-shadow: 0 14px 36px rgba(5, 4, 7, .4); pointer-events: auto; z-index: 25; }
 .hint-box strong { color: var(--gold); font-family: var(--display); font-size: 13px; }
