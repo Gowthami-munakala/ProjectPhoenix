@@ -11,7 +11,7 @@
   --display: "Cinzel Decorative", "Cormorant Garamond", Georgia, serif;
   --serif: "Cormorant Garamond", Georgia, serif;
   --type: "Special Elite", "Courier New", monospace;
-}
+} 
 
 * { box-sizing: border-box; }
 html, body { margin: 0; height: 100%; background: #000; color: var(--ink); font-family: var(--serif); overflow: hidden; }
