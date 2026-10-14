@@ -11,7 +11,7 @@ export class SmartHints {
     const level = this.level;
     if (typeof level.getHintContext === 'function') {
       return level.getHintContext();
-    }
+    } 
     if (level.stage === 'arrive') return ['reception', ['Find the warm desk lamp in the lobby. Someone is waiting there.', 'Walk north from the entrance toward reception, then use Interact near the desk.']];
     if (level.stage === 'key') return ['room', ['Read the number on your brass key. Door plates mark each room.', 'Room 009 is at the east end of the corridor, above the lounge. Interact with its door.']];
     if (level.stage === 'room' && !level.has('Photograph')) return ['photo', ['The room contains something more personal than a guest register.', 'Look beside the bedside lamp on the east side of Room 009.']];
