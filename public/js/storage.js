@@ -1,7 +1,7 @@
 // storage.js — persistent progress, settings and the player-behaviour profile
 // that powers "The Living Nightmare" adaptive enemy system, plus the Phoenix
 // account (coins, characters, powers, clues, secrets).
-//
+//  
 // Saves are versioned. The localStorage key is kept from v1 so existing saves
 // load in place; `migrate()` upgrades older shapes step by step.
 
